@@ -80,7 +80,8 @@ install(TARGETS solver
 
 include(CPackConfig.cmake)
 ```
-![Снимок экрана от 2023-04-04 20-06-46](https://user-images.githubusercontent.com/125737299/232226523-f2b1ed95-a87b-44f8-bc74-5ace932617f4.png)
+![1](https://github.com/Vlad1kavkaz/lab06/assets/112761204/28568641-2bdb-4428-b481-e8ab53d11bc6)
+
 
 
 Let's create `CPackConfig.cmake` (packaging tool)
@@ -113,7 +114,7 @@ set(CPACK_GENERATOR "DEB")
 
 include(CPack)
 ```
-![Снимок экрана от 2023-04-04 20-06-24](https://user-images.githubusercontent.com/125737299/232226546-61de0eae-c7f8-4201-9a49-1743f9eccfdf.png)
+![2](https://github.com/Vlad1kavkaz/lab06/assets/112761204/319c07d1-7bf4-4c80-9871-625c610a9e2c)
 
 Create LICENSE and DESCRIPTION for working our programm
 
@@ -194,11 +195,12 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         allowUpdates: true
 ```
-![Снимок экрана от 2023-04-04 20-06-07](https://user-images.githubusercontent.com/125737299/232226557-eadff437-d4bd-42f0-9b8f-78f318138f4c.png)
+![3](https://github.com/Vlad1kavkaz/lab06/assets/112761204/b36da1a9-cc8c-4438-95ea-ae98f72a7d29)
+![4](https://github.com/Vlad1kavkaz/lab06/assets/112761204/04af6c6c-69db-4c10-b5ba-a7e6d54d3c28)
+![5](https://github.com/Vlad1kavkaz/lab06/assets/112761204/224c17e2-b6a4-4dcd-b041-dba26c091e04)
 
 
 After we create a release `v1.0.0.0`
-
 
 
 
